@@ -16,10 +16,10 @@ const btnHold = document.querySelector('.btn--hold');
 let scores, activePlayer, currentScore, playing; //we can declare bunch of variables by seperating them with comma.
 const init = function () {
   //state variables
-  const scores = [0, 0]; //score of both players. We store them in array because we will use them afterward to increase their score when there chance comes.
-  let activePlayer = 0; //at start player 0 is playing so we declare currentPlayer as 0. and if second player chance came then we will update currentPlayer as 1
-  let currentScore = 0; //currentscore ko bahar isliye initialise kiya taki jab bhi roll dice button click ho to currentscore update ho jaye
-  let playing = true;
+  scores = [0, 0]; //score of both players. We store them in array because we will use them afterward to increase their score when there chance comes.
+  activePlayer = 0; //at start player 0 is playing so we declare currentPlayer as 0. and if second player chance came then we will update currentPlayer as 1
+  currentScore = 0; //currentscore ko bahar isliye initialise kiya taki jab bhi roll dice button click ho to currentscore update ho jaye
+   playing = true;
 
   currentScore0.textContent = 0;
   currentScore1.textContent = 0;
